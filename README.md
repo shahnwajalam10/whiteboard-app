@@ -36,23 +36,14 @@ A real-time whiteboard app built for remote teams that works smoothly across all
 
 Install dependencies
 
-bash
-Copy
-Edit
 cd client && npm install
 cd ../server && npm install
 Add environment variables
 In /server/.env:
 
-ini
-Copy
-Edit
 PORT=5000
 Run the application
 
-bash
-Copy
-Edit
 # In one terminal
 cd server
 npm start
