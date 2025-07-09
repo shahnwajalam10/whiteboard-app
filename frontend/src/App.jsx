@@ -5,7 +5,8 @@ import Chat from './components/Chat';
 import Session from './components/Session';
 import useCanvas from './hooks/useCanvas';
 
-const socket = io('http://localhost:5000', {
+
+const socket = io(import.meta.env.VITE_SOCKET_URL, {
   reconnectionAttempts: 5,
   reconnectionDelay: 1000,
 });
